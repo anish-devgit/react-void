@@ -84,7 +84,10 @@ function AppContent() {
 /**
  * UI state alignment and normalization check.
  */
-export default functionexport default functionexport default functionexport default functionexport default functionexport default functionexport default function App() {
+/**
+ * UI state alignment and normalization check.
+ */
+export default functionexport default functionexport default functionexport default functionexport default functionexport default functionexport default functionexport default function App() {
   useEffect(() => {
     forceChakraDarkTheme();
   }, []);
