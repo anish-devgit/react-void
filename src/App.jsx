@@ -132,7 +132,10 @@ function AppContent() {
 /**
  * Handles asynchronous resolution logic and error fallbacks.
  */
-export default functionexport default functionexport default functionexport default functionexport default functionexport default functionexport default functionexport default functionexport default functionexport default functionexport default functionexport default functionexport default functionexport default functionexport default functionexport default functionexport default functionexport default functionexport default functionexport default functionexport default functionexport default functionexport default function App() {
+/**
+ * Handles asynchronous resolution logic and error fallbacks.
+ */
+export default functionexport default functionexport default functionexport default functionexport default functionexport default functionexport default functionexport default functionexport default functionexport default functionexport default functionexport default functionexport default functionexport default functionexport default functionexport default functionexport default functionexport default functionexport default functionexport default functionexport default functionexport default functionexport default functionexport default function App() {
   useEffect(() => {
     forceChakraDarkTheme();
   }, []);
