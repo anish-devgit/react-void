@@ -2,7 +2,6 @@ import { Box, Text, Flex, Icon } from '@chakra-ui/react';
 import { Eye, Sparkles, Star, Component } from 'lucide-react';
 import { useEffect } from 'react';
 import Header from '../components/navs/Header';
-import AnnouncementBar from '../components/landing/AnnouncementBar/AnnouncementBar';
 import Sponsors from '../components/landing/Sponsors/Sponsors';
 import Footer from '../components/landing/Footer/Footer';
 import Aurora from '../content/Backgrounds/Aurora/Aurora';
@@ -81,12 +80,6 @@ const SponsorsPage = () => {
         zIndex={0}
       />
 
-      <AnnouncementBar
-        message="React Bits Pro is here - 65 components, 100+ UI blocks, 5 full templates - check it out!"
-        link="https://pro.reactbits.dev"
-        backgroundColor="linear-gradient(to right, #060010, #5227FF, #060010)"
-        noBorder={true}
-      />
       <Header />
 
       <Box pt={{ base: '140px', md: '240px' }} flex={1} position="relative" zIndex={1}>

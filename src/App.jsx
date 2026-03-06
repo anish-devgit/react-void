@@ -5,8 +5,6 @@ import { useEffect } from 'react';
 import { ActiveRouteProvider } from './components/context/ActiveRouteContext/ActiveRouteContext';
 import { forceChakraDarkTheme } from './utils/utils';
 
-import AnnouncementBar from './components/landing/AnnouncementBar/AnnouncementBar';
-import LaunchModal from './components/common/LaunchModal/LaunchModal';
 import DisplayHeader from './components/landing/DisplayHeader/DisplayHeader';
 import SidebarLayout from './components/layout/SidebarLayout';
 import LandingPage from './pages/LandingPage';
@@ -36,13 +34,6 @@ function AppContent() {
     <>
       {!isSidebarPage && !isToolsPage && !isSponsorsPage && (
         <>
-          <AnnouncementBar
-            message="React Bits Pro is here - 65 components, 100+ UI blocks, 5 full templates - check it out!"
-            link="https://pro.reactbits.dev"
-            backgroundColor={location.pathname === '/' ? undefined : '#5227FF'}
-            noBorder={location.pathname !== '/'}
-            className="landing-bar"
-          />
           <DisplayHeader activeItem={getActiveItem()} />
         </>
       )}
@@ -85,7 +76,6 @@ export default function App() {
       <NuqsAdapter>
         <ActiveRouteProvider>
           <AppContent />
-          <LaunchModal />
         </ActiveRouteProvider>
       </NuqsAdapter>
     </Router>

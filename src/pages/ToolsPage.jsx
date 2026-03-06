@@ -3,7 +3,6 @@ import { ChevronDown, Palette, Shapes, ImageIcon, Info } from 'lucide-react';
 import { useRef, useEffect, useState, Suspense, lazy } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import Header from '../components/navs/Header';
-import AnnouncementBar from '../components/landing/AnnouncementBar/AnnouncementBar';
 import ToolsShowcase from '../components/landing/ToolsShowcase/ToolsShowcase';
 import '../tools/tools.css';
 import Footer from '@/components/landing/Footer/Footer';
@@ -291,12 +290,6 @@ export default function ToolsPage() {
   if (!toolId) {
     return (
       <Box minH="100vh" bg="#060010" display="flex" flexDirection="column">
-        <AnnouncementBar
-          message="React Bits Pro is here - 65 components, 100+ UI blocks, 5 full templates - check it out!"
-          link="https://pro.reactbits.dev"
-          backgroundColor="linear-gradient(to right, #060010, #5227FF, #060010)"
-          noBorder={true}
-        />
         <Header />
         <Box pt={{ base: '100px', md: '120px' }} flex={1} position="relative" zIndex={1}>
           <ToolsShowcase />
@@ -330,12 +323,6 @@ export default function ToolsPage() {
 
   return (
     <Box h="100vh" bg="#060010" overflow="hidden">
-      <AnnouncementBar
-        message="React Bits Pro is here - 65 components, 100+ UI blocks, 5 full templates - check it out!"
-        link="https://pro.reactbits.dev"
-        backgroundColor="linear-gradient(to right, #060010, #5227FF, #060010)"
-        noBorder={true}
-      />
       <Header />
 
       <Box

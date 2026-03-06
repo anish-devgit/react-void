@@ -28,7 +28,6 @@ import {
 } from '../../utils/favorites';
 import { FaChevronRight } from 'react-icons/fa';
 import { ArrowRightIcon } from 'lucide-react';
-import Aurora from '@/content/Backgrounds/Aurora/Aurora';
 
 const CARD_RADIUS = 30;
 const CARD_PADDING = 6;
@@ -182,53 +181,6 @@ const ComponentList = ({ list, hasDeleteButton = false, hasFavoriteButton = fals
 
   return (
     <Box className="category-page" ref={scrollRef}>
-      <Flex
-        position="relative"
-        w="100%"
-        h="110px"
-        border="1px solid #170D27"
-        overflow="hidden"
-        bg="#060010"
-        mb={6}
-        cursor="pointer"
-        alignItems="center"
-        pl={{ base: 4, md: 8 }}
-        pr={2}
-        borderRadius="25px"
-        as="a"
-        href="https://pro.reactbits.dev"
-        target="_blank"
-      >
-        <Flex
-          direction="column"
-          position="relative"
-          zIndex={1}
-          alignSelf={{ base: 'flex-start', md: 'center' }}
-          pt={{ base: 4, md: 0 }}
-        >
-          <Text fontSize={{ base: '16px', md: '24px' }} fontWeight="600" color="#FFFFFF" letterSpacing={'-.5px'}>
-            React Bits Pro is live!
-          </Text>
-          <Text fontSize={{ base: '12px', md: '16px' }} fontWeight="500" color="#B19EEF" letterSpacing={'-.5px'}>
-            25% off launch special (limited){' '}
-            <Icon boxSize={{ base: 2, md: 3 }} as={FaChevronRight} display="inline-block" mb={0.25} ml={0.5} />
-          </Text>
-        </Flex>
-
-        <Icon
-          boxSize={{ base: 8 }}
-          opacity={0.5}
-          color="#a78bfa"
-          as={ArrowRightIcon}
-          display="inline-block"
-          mr={'1em'}
-          ml={'auto'}
-        />
-
-        <Box position="absolute" top={0} left={0} w="100%" h="100%" zIndex={0} rotate={'180deg'} opacity={0.25}>
-          <Aurora colorStops={['#FF9FFC', '#5227FF', '#FF9FFC']} amplitude={6} blend={6} />
-        </Box>
-      </Flex>
 
       <Flex
         className="page-transition-fade"
