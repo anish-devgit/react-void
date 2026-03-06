@@ -82,7 +82,7 @@ const SponsorsPage = () => {
 
       <Header />
 
-      <Box pt={{ base: '140px', md: '240px' }} flex={1} position="relative" zIndex={1}>
+      <Box pt={{ base: '60px', md: '100px' }} flex={1} position="relative" zIndex={1}>
         {/* Hero Section */}
         <Box textAlign="center" mb={12} px={4}>
           <Flex justify="center" mb={4}>

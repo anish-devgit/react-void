@@ -291,7 +291,7 @@ export default function ToolsPage() {
     return (
       <Box minH="100vh" bg="#060010" display="flex" flexDirection="column">
         <Header />
-        <Box pt={{ base: '100px', md: '120px' }} flex={1} position="relative" zIndex={1}>
+        <Box pt={{ base: '60px', md: '80px' }} flex={1} position="relative" zIndex={1}>
           <ToolsShowcase />
         </Box>
         <Box position="relative" zIndex={1}>
@@ -327,7 +327,7 @@ export default function ToolsPage() {
 
       <Box
         px={{ base: 3, md: 6 }}
-        pt={{ base: '120px', md: '160px' }}
+        pt={{ base: '80px', md: '100px' }}
         pb={{ base: 3, md: 6 }}
         h="100vh"
         overflow="hidden"

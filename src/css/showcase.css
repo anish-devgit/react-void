@@ -8,7 +8,7 @@
   margin: 0 auto;
   position: relative;
   overflow-x: hidden;
-  padding: 300px 2em 0;
+  padding: 160px 2em 0;
 }
 
 .showcase-header {
@@ -144,7 +144,7 @@
 
 @media (max-width: 1024px) {
   .showcase-wrapper {
-    padding: 200px 1.5em 0;
+    padding: 120px 1.5em 0;
   }
 
   .showcase-wrapper .grid-container {
@@ -163,7 +163,7 @@
 
 @media (max-width: 640px) {
   .showcase-wrapper {
-    padding: 200px 1em 0;
+    padding: 120px 1em 0;
   }
 
   .showcase-wrapper .grid-container {
