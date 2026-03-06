@@ -32,33 +32,16 @@
   position: relative;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
-  min-height: 1000px;
+  min-height: auto;
   max-width: calc(1200px + 6em);
-  margin: 0 auto;
+  margin: 140px auto 40px;
   padding: 0 4em;
   z-index: 10;
 }
 
-/* Landing content responsive min-height */
-@media (max-width: 1024px) {
-  .landing-content {
-    min-height: 700px;
-  }
-}
-
-@media (max-width: 768px) {
-  .landing-content {
-    min-height: 600px;
-  }
-}
-
-@media (max-width: 480px) {
-  .landing-content {
-    min-height: 500px;
-  }
-}
+/* Landing content responsive min-height removed */
 
 .landing-title {
   user-select: none;
@@ -493,12 +476,12 @@
     padding: 0 2em;
     max-width: calc(1200px + 2em);
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
   }
 
   .hero-main-content {
     max-width: 100%;
-    align-items: center;
+    align-items: flex-start;
     text-align: center;
     margin-bottom: 2rem;
   }
@@ -563,7 +546,7 @@
 
   .landing-content {
     margin-top: 130px;
-    align-items: center;
+    align-items: flex-start;
     padding: 0 1.5rem;
   }
 
@@ -599,7 +582,7 @@
 
   .landing-content {
     margin-top: 120px;
-    align-items: center;
+    align-items: flex-start;
     padding: 0 1.5rem;
   }
 }
@@ -618,7 +601,7 @@
 
   .landing-content {
     margin-top: 110px;
-    align-items: center;
+    align-items: flex-start;
     padding: 0 1.5rem;
   }
 }
@@ -637,7 +620,7 @@
 
   .landing-content {
     margin-top: 100px;
-    align-items: center;
+    align-items: flex-start;
     padding: 0 1.5rem;
   }
 }
@@ -656,7 +639,7 @@
 
   .landing-content {
     margin-top: 100px;
-    align-items: center;
+    align-items: flex-start;
     padding: 0 1.5rem;
   }
 }
@@ -675,7 +658,7 @@
 
   .landing-content {
     margin-top: 100px;
-    align-items: center;
+    align-items: flex-start;
     padding: 0 1.5rem;
   }
 
@@ -710,7 +693,7 @@
 
   .landing-content {
     margin-top: 100px;
-    align-items: center;
+    align-items: flex-start;
     padding: 0 1.5rem;
   }
 }
@@ -730,7 +713,7 @@
 
   .landing-content {
     margin-top: 100px;
-    align-items: center;
+    align-items: flex-start;
     padding: 0 1.5rem;
   }
 }
@@ -750,7 +733,7 @@
 
   .landing-content {
     margin-top: 80px;
-    align-items: center;
+    align-items: flex-start;
     padding: 0 1.5rem;
   }
 
